@@ -52,22 +52,22 @@ const socialMedia = [
     id: 1,
     icon: insta,
     name: "Instagram",
-    username: "@jan",
-    link: "http://localhost:3000/",
+    username: "@usairam777",
+    link: "https://www.instagram.com/usairam777/",
   },
   {
     id: 2,
     icon: twitter,
     name: "X / Twitter",
-    username: "@jan",
-    link: "http://localhost:3000/",
+    username: "@Usairam71",
+    link: "http://x.com/Usairam71",
   },
   {
     id: 3,
     icon: linkedin,
     name: "Linkedin",
-    username: "@jan",
-    link: "http://localhost:3000/",
+    username: "@usairam-saleem77",
+    link: "https://www.linkedin.com/in/usairam-saleem77",
   },
 ];
 

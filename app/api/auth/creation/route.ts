@@ -30,7 +30,5 @@ export async function GET() {
     });
   }
 
-  return NextResponse.redirect(
-    "https://portfolio-nextjs14-ruby.vercel.app/guestbook"
-  );
+  return NextResponse.redirect("https://dev-usairam.vercel.app/guestbook");
 }

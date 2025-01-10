@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import me from "../../public/jan.jpg";
+import me from "../../public/me.jpg";
 import Image from "next/image";
 export function AboutSection() {
   return (
@@ -17,7 +17,7 @@ export function AboutSection() {
         </p>
 
         <a
-          href="mailto:jan@alenix.de"
+          href="mailto:muhammaduseram@gmail.com"
           className="relative inline-block text-lg group mt-5"
         >
           <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
