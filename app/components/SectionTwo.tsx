@@ -27,6 +27,9 @@ import twitter from "../../public/twitter.svg";
 import insta from "../../public/insta.svg";
 import linkedin from "../../public/linkedin.svg";
 import { Button } from "@/components/ui/button";
+//icons
+
+import StackIcon from "tech-stack-icons";
 
 const icons = [
   sketch,
@@ -87,10 +90,24 @@ export function SectionTwo() {
             <CardTitle>Explore my stack</CardTitle>
             <CardDescription>Check out the tools i use daily</CardDescription>
           </CardHeader>
-          <CardContent className="flex flex-wrap gap-4">
-            {icons.map((item, index) => (
+          <CardContent className="flex flex-wrap gap-8">
+            {/* {icons.map((item, index) => (
               <Image key={index} src={item} alt="Icon" className="w-16 h-16" />
-            ))}
+            ))} */}
+            <StackIcon className="w-14 h-14" name="nextjs2" />
+            <StackIcon className="w-14 h-14" name="reactjs" />
+            <StackIcon className="w-14 h-14" name="js" />
+            <StackIcon className="w-14 h-14" name="typescript" />
+            <StackIcon className="w-14 h-14" name="nodejs" />
+            <StackIcon className="w-14 h-14" name="figma" />
+            <StackIcon className="w-14 h-14" name="tailwindcss" />
+            <StackIcon className="w-14 h-14" name="materialui" />
+            <StackIcon className="w-14 h-14" name="prisma" />
+            <StackIcon className="w-14 h-14" name="mongodb" />
+            <StackIcon className="w-14 h-14" name="firebase" />
+            <StackIcon className="w-14 h-14" name="supabase" />
+            <StackIcon className="w-14 h-14" name="github" />
+            <StackIcon className="w-14 h-14" name="slack" />
           </CardContent>
         </Card>
 
