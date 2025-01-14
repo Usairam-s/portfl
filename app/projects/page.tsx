@@ -15,7 +15,9 @@ async function getData() {
 
   const data = await client.fetch(query, {}, { next: { revalidate: 30 } });
 
-  return data;
+  const reverseData = data.reverse();
+
+  return reverseData;
 }
 
 export default async function ProjectsPage() {
