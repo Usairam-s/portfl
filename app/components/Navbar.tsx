@@ -17,10 +17,10 @@ export const navigationItems = [
     name: "Home",
     href: "/",
   },
-  {
-    name: "Guestbook",
-    href: "/guestbook",
-  },
+  // {
+  //   name: "Guestbook",
+  //   href: "/guestbook",
+  // },
   {
     name: "Projects",
     href: "/projects",
